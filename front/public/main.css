@@ -1,0 +1,69 @@
+.wc-header{
+    display: none
+}
+.wc-message-groups{
+    top: 0px;
+    bottom: 20%;
+}
+.wc-console {
+    z-index: 9;
+    border: 0px;
+    border-bottom: 1px solid;
+    bottom: 5%;
+    width: 25%;
+    margin-left: 38%;
+}
+
+.wc-upload {
+    display: none!important
+}
+.wc-send {
+    margin-top: 2%;
+}
+.wc-textbox {
+    margin-left: -10%
+}
+body .wc-app, .wc-app button, .wc-app input, .wc-app textarea {
+    font-family: "Segoe UI", sans-serif;
+    font-size: 20px;
+}
+.wc-message-group-content {
+    width: 85%;
+    margin-left: 7.5%;
+}
+.wc-suggested-actions {
+    background-color: white!important;
+    bottom: 18%!important;
+    height: 40!important;
+    left: 8%!important;
+    overflow: hidden!important;
+    position: absolute!important;
+    right: 0!important;
+    transition: height 0.2s cubic-bezier(0, 0, 0.5, 1)!important;
+}
+*  {
+    margin:0;
+    padding:0;
+}
+
+html, body {height:100%;}
+
+.geral {
+    min-height:100%;
+    position:relative;
+    width:800px;
+}
+
+.footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    background-color: #EBECF3;
+    height: 20%;
+}
+
+.content {overflow:hidden;}
+.aside {width:200px;}
+.fleft {float:left;}
+.fright {float:right;}
+body {overflow: hidden; }

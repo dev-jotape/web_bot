@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://cdn.botframework.com/botframework-webchat/latest/botchat.css" rel="stylesheet" />
+    <link href="./main.css" rel="stylesheet" />
+    <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+</head>
+  <body>
+    <div id="bot">
+    </div>
+    <div id="footer" class="footer">
+    </div>
+
+    <script src="https://cdn.botframework.com/botframework-webchat/latest/botchat.js"></script>
+    <script src="./main.js"></script>
+    <script>
+      BotChat.App({
+        directLine: { secret: 'XBAKS_UhEec.cwA.bcA.RwHKpYLGfbMV4LSrzUcl2Lf9MGOR0fd4s9QAnnka4S8' },
+        user: { id: 'userid' },
+        bot: { id: 'botid' },
+        resize: 'detect'
+      }, document.getElementById("bot"));
+    </script>
+  </body>
+</html>
